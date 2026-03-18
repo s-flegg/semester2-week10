@@ -21,8 +21,8 @@
    implementation of the algorithm, using the code from `bubblesort.py` as
    your code.
 
-4. Compile and run the C program. Compare the results with those from the
-   Python program.
+4. Compile the program. You can do this with `make bubblesort`. Run it and
+   compare the results with those from the Python version.
 
 ## Other Algorithms
 
@@ -39,8 +39,9 @@
    array of integers. The GNU C library (glibc) implementation of this
    function uses a variant of the [quicksort algorithm][qsort].
 
-4. Compile and run the program in `qsort.c`. Compare the results with the
-   benchmarks produced by `bubblesort.c` and `powersort.py`.
+4. Compile the program. You can do this with `make qsort`. Run the program
+   and compare the results with the benchmarks produced by `bubblesort.c`
+   and `powersort.py`.
 
    Why is the `powersort.py` benchmark comparable with that of `qsort.c`?
 

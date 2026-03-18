@@ -9,6 +9,11 @@ What differences do you see in the relative proportions of user CPU time,
 system CPU time and time spent not executing on the CPU? How does this
 relate to the tasks that the programs are performing?
 
+>![CAUTION]
+> When you are done, and before doing a commit, remember to clean up by
+> entering `make clean`. This will ensure that executables are not
+> committed to your repository.
+
 ## `lower.c`
 
 This program reads text from a file, transforming any uppercase characters
