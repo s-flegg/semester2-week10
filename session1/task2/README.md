@@ -13,6 +13,7 @@
 
 2. Run the program with no command line arguments. Note the time that it
    displays.
+   1.56216 s
 
 3. Edit `bubblesort.c`. This is the C equivalent of `bubblesort.py`, except
    that sorting algorithm hasn't yet been implemented.
@@ -23,6 +24,7 @@
 
 4. Compile the program. You can do this with `make bubblesort`. Run it and
    compare the results with those from the Python version.
+   0.07313 seconds
 
 ## Other Algorithms
 
@@ -33,6 +35,7 @@
 2. Run `powersort.py` with no command line arguments. Then try specifying
    a much larger list size on the command line. You should see that this is
    much, much faster than bubble sort!
+   0.00064 seconds
 
 3. Examine `qsort.c`. This is similar to `bubblesort.c`, except that it uses
    [the `qsort()` function][qsfunc] from the C standard library to sort the
@@ -42,8 +45,10 @@
 4. Compile the program. You can do this with `make qsort`. Run the program
    and compare the results with the benchmarks produced by `bubblesort.c`
    and `powersort.py`.
+   0.00069 seconds
 
    Why is the `powersort.py` benchmark comparable with that of `qsort.c`?
+   The python sort binary is likely implemented in C.
 
 
 [psort]: https://en.wikipedia.org/wiki/Powersort
