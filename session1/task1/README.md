@@ -31,6 +31,9 @@ We have also provided the text of Leo Tolstoy's famously lengthy novel
        time ./lower war_and_peace.txt tmp.txt
 
    Make a note of the times that you see.
+   real    0m0.004s
+   user    0m0.002s
+   sys     0m0.002s
 
 3. Briefly examine `tmp.txt` to verify that the operation has been performed
    correctly, then remove this file.
@@ -54,6 +57,9 @@ times, summing the values that are returned.
        time ./sines
 
    Make a note of the times that you see.
+   real    0m0.066s
+   user    0m0.063s
+   sys     0m0.002s
 
 ## `multiply.c`, `matrix.c`, `matrix.h`
 
@@ -69,3 +75,6 @@ then multiplies them together.
        time ./multiply
 
    Make a note of the times that you see.
+   real    0m5.730s
+   user    0m5.037s
+   sys     0m0.022s
